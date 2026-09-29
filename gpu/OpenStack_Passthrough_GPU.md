@@ -1,5 +1,11 @@
 # OpenStack GPU Integration
 
+- [OpenStack GPU Integration](#openstack-gpu-integration)
+  - [1. Architecture](#1-architecture)
+  - [2. PCI Passthrough](#2-pci-passthrough)
+    - [2.1. Installation](#21-installation)
+    - [2.2. Benchmark GPU in VM](#22-benchmark-gpu-in-vm)
+
 ## 1. Architecture
 
 The [PCI Passthrough feature in OpenStack](https://docs.openstack.org/nova/latest/admin/pci-passthrough.html) allows compute hosts to provide physical PCI devices to virtual machines. Based on this capability, virtual machines can use GPUs, NICs, or other devices from the physical host.
